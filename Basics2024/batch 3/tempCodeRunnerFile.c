@@ -1,0 +1,1 @@
+printf("All numbers are equal");

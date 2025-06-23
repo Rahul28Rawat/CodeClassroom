@@ -1,0 +1,5 @@
+Let's use the w mode from the previous chapter again, 
+and write something to the file we just created.
+The w mode means that the file is opened for writing. 
+To insert content to it, you can use the fprintf() 
+function and add the pointer variable (fptr in our example) and some text.

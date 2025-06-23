@@ -1,0 +1,24 @@
+{
+  "C_Cpp.errorSquiggles": "disabled",
+  "files.associations": {
+    "math.h": "c",
+    "conio.h": "c",
+    "stdio.h": "c",
+    "ostream": "c",
+    "bubblesortRevision.C": "cpp",
+    "exception": "c",
+    "ios": "c",
+    "istream": "c",
+    "iterator": "c",
+    "memory": "c",
+    "streambuf": "c",
+    "tuple": "c",
+    "utility": "c",
+    "xiosbase": "c",
+    "xstring": "c",
+    "xmemory": "c",
+    "iostream": "cpp",
+    "xutility": "cpp"
+  },
+  "cSpell.words": ["rahul", "rollno", "shaurya"]
+}

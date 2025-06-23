@@ -1,0 +1,129 @@
+\documentclass[a4paper,10pt]{article}
+%-----------------------------------------------------------
+\usepackage[top=0.75in, bottom=0.75in, left=0.55in, right=0.85in]{geometry}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{palatino}
+\usepackage{tabularx}
+\fontfamily{SansSerif}
+\selectfont
+
+\usepackage[T1]{fontenc}
+\usepackage
+%[ansinew]
+[utf8]
+{inputenc}
+
+\usepackage{color}
+\definecolor{mygrey}{gray}{0.75}
+\textheight=9.75in
+\raggedbottom
+
+\setlength{\tabcolsep}{0in}
+\newcommand{\isep}{-2 pt}
+\newcommand{\lsep}{-0.5cm}
+\newcommand{\psep}{-0.6cm}
+\renewcommand{\labelitemii}{$\circ$}
+
+\pagestyle{empty}
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\small \colorbox{mygrey}{\begin{minipage}{0.975\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
+\newcommand{\ressubheading}[3]{
+\begin{tabular*}{6.62in}{l @{\extracolsep{\fill}} r}
+	\textsc{{\textbf{#1}}} & \textsc{\textit{[#2]}} \\
+\end{tabular*}\vspace{-8pt}}
+%-----------------------------------------------------------
+
+\begin{document}
+\hspace{0.5cm}\\[-0.2cm]
+
+\textbf{Rahul Rawat} \\
+\indent F-6, \\
+\indent Pandav Nagar,  \\
+\indent Delhi (India)- 110091\\
+\indent Email-id : \textbf{rsr2002rawat@email.com} \\
+\indent Mobile No.: \textbf{7827221211} \\
+
+\resheading{\textbf{ACADEMIC DETAILS} }\\[\lsep]
+\\ \\
+%\begin{table}[ht!]
+%\begin{center}
+\indent \begin{tabular}{ l @{\hskip 0.15in} l @{\hskip 0.15in} l @{\hskip 0.15in} l @{\hskip 0.15in} l }
+\hline
+\textbf{Examination} & \textbf{University} & \textbf{Institute} & \textbf{Year} & \textbf{CGPA/\%} \\
+\hline
+UnderGraduate Specialization: & \textit{Computer Engineering} \\
+Graduation & AKTU Lucknow & IPEC Ghaziabad & 2024 & 70.4\\
+ Senior Secondary School & CBSE &  Rishabh Public School & 2020 & 78.4\\
+Higher Secondary School & CBSE &  Rishabh Public School & 2018 & 84.4\\
+\hline
+\end{tabular}
+%\end{center}
+%\end{table}
+\\ \\
+
+\resheading{\textbf{FIELDS OF INTEREST} }\\[\lsep]
+\begin{itemize}
+\item \noindent Backend development, frontend Development, Machine Learning
+\end{itemize}
+
+\resheading{\textbf{TECHNICAL SKILLS} }\\[\lsep]
+\begin{itemize}
+\item \noindent \textbf{Languages} (C, C++, Java, python, kotlin, HTML, CSS, Javascript),\textbf{Database} (MySQL),\textbf{Coursework} (OOPS, DBMS), \textbf{Framework} (Django, React.js, Node.js, Jetpack Compose), \textbf{OS} (Windows, Linux),\textbf{Skills} (debugging, APIs).
+\end{itemize}
+
+\resheading{\textbf{MAJOR PROJECTS AND SEMINAR} }\\[\lsep]
+\begin{itemize}
+\item \textbf{ Office Employee Management System
+} (B.Tech Project) \\
+ \emph{ (Guide:Prof. Kumud Arora , Sept’23- Nov’23)} \\[-0.6cm]
+	\begin{itemize}\itemsep \isep
+	\item  Designed and built an Office Employee Management System using Python, Django, HTML, CSS, JS,SQL, and Bootstrap.
+.
+	\item  Implemented essential features for tracking employee details, including joining and leaving dates, with
+ functionalities for adding, viewing, removing, and filtering data.
+
+	\item  Demonstrated full-stack development expertise by creating a user-friendly interface and ensuring seamless integration of front-end and back-end technologies.
+
+	\end{itemize}
+
+\item \textbf{Music Recommendation System} (B. Tech. Seminar) \\
+ \emph{(Guide:Prof. Neha Verma ,  Dec’23- Feb’24)} \\[-0.6cm]
+	\begin{itemize}\itemsep \isep
+	\item  Build a Music recommendation app based on genre and choices using kotlin, Jetpack compose, API and retrofit .
+	\item  Applied machine learning models to improve the accuracy of recommendations based on user behavior and listening history.
+        \item Studied various topics and now working on improving UI and adding more features.	
+ \end{itemize}
+\end{itemize}
+
+\resheading{\textbf{Experience} }\\[\lsep]
+\begin{itemize}
+\item \textbf{ AppSuccessor Media Pvt. Ltd} ( Full-time ) \\
+ \emph{ (Automation QA engineer , MAR’24- MAy’24)} \\[-0.6cm]
+	\begin{itemize}\itemsep \isep
+	\item  Created API logs using Fiddler Classic, developed appflows, and scripted APIs manually using Python libraries and automation tools like Autolabs..
+.
+	\item  worked on multiple International apps appflows and automated scripts reducing need for testing of 4-6 apps per day. 
+
+	\item  practiced different networking methods to work on apps which are not accessible in India.
+
+	\end{itemize}
+
+\item \textbf{GoMechanic} ( Intern ) \\
+ \emph{(web developer Intern,  Oct’22- Dec’22)} \\[-0.6cm]
+	\begin{itemize}\itemsep \isep
+	\item  Fixed multiple bugs, enhancing user experience by 33%.
+	\item  created and Managed MySQL databases and Excel data sheets with technical expertise.	
+ \end{itemize}
+\end{itemize}
+
+\resheading{\textbf{STRENGTHS, INTEREST AND HOBBIES} }\\[\lsep]
+\begin{itemize}
+\item \noindent Written / Verbal, Communication, Analytical, Quick Learner, Problem Solving, 
+\item \noindent Cricket, Playing Chess(1125 elo).
+\end{itemize}
+
+\end{document}
+
