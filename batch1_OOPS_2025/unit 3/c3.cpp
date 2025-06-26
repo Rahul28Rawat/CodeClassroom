@@ -9,8 +9,8 @@ private: // these values are not accessible outside the class & they are not inh
 protected: // these values are not accessible outside the class & they can be inherited by child class
     int b = 2;
 
-public:
-    int c = 3; // these values are accessible outside the class & they can be inherited by child class
+public: // these values are accessible outside the class & they can be inherited by child class
+    int c = 3;
 
     // getter
     int geta()
@@ -49,78 +49,47 @@ public:
     }
 };
 
+// private > protected > public
+
+// variable public , inheritance access modifier private  -> variable will be inherited protected
+// variable protected , inheritance access modifier public  -> variable will be inherited protected
+// variable public , inheritance access modifier private  -> variable will be inherited private
+// variable private , inheritance access modifier public  -> not inherited
+
 class child : public base
 {
-    // public:
-    // int c
+public:
+int c
     // protected:
     // int b;
     // private:
     // int a;
-public:
-    int bprinter()
-    {
-        return b;
-    }
-    int aprinter()
+    public :
+    // int bprinter()
+    // {
+    //     return b;
+    // }
+    // int aprinter()
+    // {
+    //     int ans = geta();
+    //     return ans;
+    // }
+    void
+    aprinter()
     {
         int ans = geta();
-        return ans;
+        cout << ans << endl;
+    }
+    void bprinter()
+    {
+        cout << b << endl;
     }
 };
 
 int main()
 {
     child c1;
-    // c1.display();
-    cout << c1.aprinter() << endl;
+    c1.aprinter();
 
     return 0;
 }
-
-// {
-// private:
-//     int d;
-
-// protected:
-//     int e;
-
-// public:
-//     int f;
-
-//     // getter
-//     int getd()
-//     {
-//         return d;
-//     }
-//     int gete()
-//     {
-//         return e;
-//     }
-
-//     // setter
-//     void setd(int value)
-//     {
-//         this->d = value;
-//     }
-//     void sete(int value)
-//     {
-//         this->e = value;
-//     }
-
-//     void display()
-//     {
-//         cout << "d= " << d << endl;
-//         cout << "e= " << e << endl;
-//         cout << "f= " << f << endl;
-//     }
-//     child()
-//     {
-//     }
-//     child(int d, int e, int f)
-//     {
-//         this->d = d;
-//         this->e = e;
-//         this->f = f;
-//     }
-// }
