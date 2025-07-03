@@ -61,22 +61,3 @@ int main()
 
     return 0;
 }
-
-// parent
-// {
-//     // default constructor
-//     // 1st parameterised constructor(1 var)
-//     // 2nd parameterised constructor(2 var)
-// }
-
-// child
-// {
-//     // default constructor
-//     // 1st parameterised constructor(1 var)
-//     // 2nd parameterised constructor(2 var)
-// }
-
-// child obj1(2);
-
-// // parent constructor = ?
-// // child constructor = 1st
