@@ -35,7 +35,7 @@ public:
     void showname()
     {
         // cout << "I am the child" << endl;
-        parent2::showname();
+        // parent2::showname();
     }
     // child()
     // {
@@ -49,7 +49,6 @@ int main()
     // obj1.showname2();
 
     child o1;
-    cout << o1.parent2::a;
 
     return 0;
 }

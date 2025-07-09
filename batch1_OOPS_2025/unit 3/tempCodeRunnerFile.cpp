@@ -1,1 +1,1 @@
-child o1;
+bool
