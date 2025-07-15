@@ -71,7 +71,7 @@ public:
 int main()
 {
     grandchild g1;
-    cout << g1.display();
+    // cout << g1.display();
 
     return 0;
 }

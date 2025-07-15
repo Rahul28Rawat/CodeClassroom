@@ -44,7 +44,7 @@ public:
 int main()
 {
     grandchild g1;
-    g1.display();
+    // g1.display();
 
     return 0;
 }
