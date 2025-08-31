@@ -1,1 +1,1 @@
-bool
+friend class student;
